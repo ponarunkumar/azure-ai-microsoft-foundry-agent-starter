@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Agent Demo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/AgentDemo/bin/Debug/net8.0/AgentDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/AgentDemo",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
